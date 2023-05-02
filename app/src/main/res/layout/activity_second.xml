@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/raleway"
+        android:text="Registration Successful"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Your details are submitted successfully"
+        android:textSize="20dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:background="@drawable/edittxt"
+                android:padding="20dp"
+                android:text="Name" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:background="@drawable/edittxt"
+                android:padding="20dp"
+                android:text="Birth date" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:text="Email Id"
+                android:background="@drawable/edittxt"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/col1"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                android:weightSum="80"
+                />
+            <TextView
+                android:id="@+id/col2"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                android:weightSum="80"
+                />
+
+            <TextView
+                android:id="@+id/col3"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                android:weightSum="80"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/col4"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+            <TextView
+                android:id="@+id/col5"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+
+            <TextView
+                android:id="@+id/col6"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/col7"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+            <TextView
+                android:id="@+id/col8"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+
+            <TextView
+                android:id="@+id/col9"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/col10"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+            <TextView
+                android:id="@+id/col11"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+
+            <TextView
+                android:id="@+id/col12"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/col13"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+            <TextView
+                android:id="@+id/col14"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+
+            <TextView
+                android:id="@+id/col15"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/col16"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+            <TextView
+                android:id="@+id/col17"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+
+            <TextView
+                android:id="@+id/col18"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <TextView
+                android:id="@+id/col19"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+            <TextView
+                android:id="@+id/col20"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+
+            <TextView
+                android:id="@+id/col21"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="20dp"
+                android:background="@drawable/edittxt"
+                />
+        </TableRow>
+
+
+
+
+
+
+
+    </TableLayout>
+
+</RelativeLayout>
